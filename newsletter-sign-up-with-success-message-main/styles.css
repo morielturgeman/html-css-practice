@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -41,7 +42,7 @@ h1 {
   padding: 0;
 }
 
-.right-side > p {
+.first-message {
   margin: 0 0 8px;
   font-size: 13px;
   line-height: 1.8;
@@ -67,13 +68,12 @@ h1 {
   align-self: center; 
 }
 
-.right-side form {
+.newsletter-form {
   display: flex;
   flex-direction: column;
-  
 }
 
-.Email-label {
+.email-label {
   font-weight: bold;
   font-size: 12px;
   margin-top: 14px;
@@ -125,7 +125,7 @@ h1 {
     margin: 0 0 10px;
   }
 
-  .right-side > p {
+  .first-message {
     font-size: 14px;
     margin-bottom: 12px;
   }
